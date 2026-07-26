@@ -9,6 +9,14 @@ brew tap jiko21/davy
 brew install davy
 ```
 
+Recent Homebrew versions require trusting a third-party tap's formula before it will install. If `brew install davy` refuses with an "untrusted tap" error, run:
+
+```bash
+brew trust --formula jiko21/davy/davy
+```
+
+and install again.
+
 ## Supported platforms
 
 Apple Silicon (arm64) macOS only, for now. See [jiko21/davy releases](https://github.com/jiko21/davy/releases) for other platforms (Linux, Windows).
