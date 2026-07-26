@@ -9,7 +9,7 @@ class Davy < Formula
   depends_on arch: :arm64
 
   def install
-    bin.install "davy-darwin-arm64/davy"
+    bin.install "davy"
   end
 
   test do
